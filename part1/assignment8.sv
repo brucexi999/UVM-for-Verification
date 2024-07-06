@@ -16,7 +16,7 @@ class driver extends uvm_driver;
     `uvm_component_utils(driver) 
     
     
-    function new(string path = "test", uvm_component parent = null);
+    function new(string path = "driver", uvm_component parent = null);
         super.new(path, parent);
     endfunction
 
